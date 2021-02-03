@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration:none;
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ /*styling the about section*/
+ 
+ .about{
+     background-image:url(https://images.pexels.com/photos/4353615/pexels-photo-4353615.jpeg?cs=srgb&dl=pexels-ketut-subiyanto-4353615.jpg&fm=jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+    
+    
+ }
+ 
+ .about p{
+     color:darkred;
+     font-size:20px;
+     padding:30px;
+ }
+ 
+ 
+ .about ol{
+     color:white;
+     font-size: 20px;
+     padding:40px;
+ }
+ .aboutcontent{
+     float: left;
+ }
+ img{
+     height:400px;
+     float: right;
+     padding: 0 50px;
+ }
+ .aboutp{
+     background-color:red;
+     padding: 5px;
+     transform: translateY(45kv);
+ }
+ 
